@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Personal portfolio</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./logo.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times nav-ico" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars nav-ico" onclick="openmenu()"></i>
+            </nav>
+            <!--
+            text box start
+        -->
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span> Abhay </span> <br> Suneriya From Indore</h1>
+            </div>
+        </div>
+    </div>
+    <!--About Page-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./84a7ed84-66ed-4f49-a025-dccc29d8aef6.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>
+                        I am Abhay Suneriya Currently Pusrsuing B.Tech Computer Science from Sage University Indore.
+                        I am Intrested to working in the field of Web Development and Frontend Development. Now i am
+                        Searching for an a internhip related to my field for growing up and set my futer at the next
+                        Level.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')"> Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+
+                            <li>JavaScript</li>
+
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents school" id="education">
+                        <ul>
+                            <li>
+                                <h3>School</h3><br> Pragati Hr.Sec. School Indore
+                            </li>
+                            <li><span>10th (2019)</span><br>79.8% (M.P.bord)</li>
+                            </li>
+                            <li><span>12th (2021)</span><br>76.8% (M.P.bord)</li>
+                            </li>
+
+                            <li><span>Collage 2021 - present</span><br>Sage University Indore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>10may-10june </span><br> web Developer at CODETECHIT Solution
+                            </li>
+                            <li><span>10may-10june </span><br> web Developer at Bharat Intern
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about close-->
+    <!-- -----------Portfolio start------------------ -->
+    <div id="portfolio">
+        <h1 class="sub-title"><span>M</span>y <span>P</span>rojects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./1.jpg" alt="">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>This app is clone of the real netflix & here it is only frontend project.</p>
+                    <a href="https://clever-yeot-494321.netlify.app/"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./2.jpg" alt="">
+                <div class="layer">
+                    <h3>To Do List</h3>
+                    <p>This app is used for daily working you can add & remove your work.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./3.jpg" alt="">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This app is showing you the current wheather situation of the city you enter using Api.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="##" class="btn see-more">See More</a>
+
+    </div>
+
+    <!-- --------contact --------- -->
+    <div>
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane fa-xs"></i>abhaysuneriya2003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8770562712</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/abhay.suneriya?mibextid=ZbWKwL" target="_blank"
+                            rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/abhay-suneriya-9a1137237/" target="_blank"
+                            rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AbhaySuneriya" target="_blank" rel="noopener"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/accounts/onetap/?next=%2F&hl=en" target="_blank"
+                            rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./Abhay resume.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Me"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Abhay. <i class="fa-solid fa-heart"></i> Made in 2024</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzYx6N5EKyvTPzhuAOpwrJJWAt09BPpXyG7rvSN_6URn_AdNtFV5NiJ-U_NHstjJmAS/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully...!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
